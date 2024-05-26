@@ -1,0 +1,92 @@
+.fardaye-shegeftangiz{
+    width: 100%;
+    height: 110px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    .fardaye-shegeftangiz-center{
+        width: 90%;
+        height: 100px;
+        background-image: url(../../images/fardaye-shegeftangiz.svg);
+        background-position-x:left ;
+        background-position-y: center;
+        background-repeat: no-repeat;
+        background-color: #F4E0E4;
+        border-radius: 15px;
+        margin: 0 auto;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+        .fardaye-shegeftangiz-center-right{
+            width: 40%;
+           padding-top: 22px;
+           padding-right: 60px;
+           .txt{
+            span{
+                font-size: 10px;
+            }
+           }
+        }
+        .fardaye-shegeftangiz-center-left{
+            width: 60%;
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: center;
+            align-items: center;
+            column-gap: 20px;
+            .axha{
+                display: flex;
+                flex-flow: row wrap;
+                column-gap: 5px;
+                img{
+                    width: 58px;
+                    height: 58px;
+                    border-radius: 50%; 
+                }
+                .darsadesh-asli{
+                    position: relative;
+                    .darsadesh{
+                        width: 30px;
+                        height: 20px;
+                        background-color: #D32F2F;
+                        border-radius: 20px;
+                        position: absolute;
+                        right: -80px;
+                        top: 45px;
+                        span{
+                            color: #fff;
+                            font-size: 12px;
+                            text-align: center;
+                            line-height: 20px;
+                            position: absolute;
+                            right: 5px;
+                        }
+                    }
+                }
+            }
+            .bish-az-100{
+                width: 145px;
+                height: 45px;
+                background-color: #fff;
+                border-radius: 20px;
+                position: relative;
+                span{
+                    position: absolute;
+                    top: 10px;
+                    right: 5px;
+                    color: #D32F2F;
+                }
+                svg{
+                    position: absolute;
+                    right: 115px;
+                    top: 10px;
+                    path{
+                        fill: #D32F2F;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,113 @@
+.vizhe-aaza{
+    width: 100%;
+    height: 110px;
+    .vizhe-aaza-center{
+        width: 91%;
+        height: 100px;
+        padding: 12px 20px ;
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        justify-content: space-between;
+        background-image: url(../../images/back-vizhe-aaza-right.svg) , url(../../images/back-vizhe-aaza-left.svg)  ;
+        background-repeat: no-repeat;
+       background-color: hsl(309, 67%, 36%);
+        margin: 0 auto;
+        border-radius: 15px;
+        .vizhe-aaza-center-right{
+            width: 30%;
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: center; 
+            align-items: center;
+            column-gap: 20px;
+            .svgish{
+                padding-top: 10px;
+                img{
+                width: 66px;
+                height: 62px;
+            
+            }
+        }
+         .texthash{
+            .bold{
+                h2{
+                    color: #fff;
+                }
+            }
+            .normal{
+                padding-top: 10px;
+                display: flex;
+                flex-flow: row wrap;
+                column-gap: 40px;
+                p{
+                    font-size: 14px;
+                    color: #fff;
+                    opacity: 0.8;
+                }
+            }
+         }
+            
+        }
+        .vizhe-aaza-center-left{
+            width: 70%;
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: flex-end;
+            align-items: center;
+            column-gap: 30px;
+            .axha{
+                display: flex;
+                flex-flow: row wrap;
+                column-gap:10px;
+                text-align: center;
+                img{
+                    width: 50px;
+                    height: 50px;
+                    border-radius: 50%; 
+                }
+                .darsadesh-asli{
+                    position: relative;
+                    .darsadesh{
+                        width: 30px;
+                        height: 20px;
+                        background-color: #D32F2F;
+                        border-radius: 20px;
+                        position: absolute;
+                        right: -75px;
+                        top: 40px;
+                        span{
+                            color: #fff;
+                            font-size: 12px;
+                            text-align: center;
+                            line-height: 20px;
+                            position: absolute;
+                            right: 5px;
+                        }
+                    }
+                }
+        }
+        .bish-az-100{
+            width: 145px;
+            height: 45px;
+            background-color: #fff;
+            border-radius: 20px;
+            position: relative;
+            span{
+                position: absolute;
+                top: 10px;
+                right: 5px;
+                color: #D32F2F;
+            }
+            svg{
+                position: absolute;
+                right: 115px;
+                top: 10px;
+                path{
+                    fill: #D32F2F;
+                }
+            }
+        }
+    }
+}
+}

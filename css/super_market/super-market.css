@@ -1,0 +1,123 @@
+.super_market {
+  width: 100%;
+  height: 100px;
+  .super__market__center{
+    width: 90%;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    background-image: url(../../images/SVG/supermarket.svg);
+    background-repeat: no-repeat;
+    background-color: #ecefec;
+    border-radius: 15px;
+    .supermarket__rast{
+      width: 45%;
+      display: flex;
+      flex-flow: row wrap;
+      align-items: center;
+      justify-content: center;
+      column-gap: 10px;
+      a{
+        text-decoration: none;
+        .takhfif_shegeft{
+          width: 107px;
+          height: 28px;
+          background-color: #39AE00;
+          border-radius: 16px;
+          align-items: center;
+        }
+        p{
+          color: aliceblue;
+          text-align: center;
+          line-height: 28px;
+        }
+
+      }
+    }
+    .supermarket__chap{
+      width: 55%;
+      display: flex;
+      flex-flow: row wrap;
+      align-items: center;
+      justify-content: center;
+      column-gap: 10px;
+      padding-left: 40px;
+      position: relative;
+      a{display: flex;
+        align-items: center;
+        text-decoration: none;
+        position: relative;
+
+        img{
+          border-radius: 50%;
+          width: 70px;
+          height: 70px;
+        }
+          .darsad-takhfifesh-1{
+            width: 36px;
+            height: 24px;
+            background-color: #D32F2F;
+            display: flex;
+            border-radius: 13px;
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+            left: 50px;
+            top: 50px;
+            p{
+              color: #fff;
+              box-sizing: border-box;
+              font-size: 12px;
+              font-weight: bold;
+              display: flex;
+              flex-flow: row wrap;
+            }
+          }
+        }
+        .kala-more{
+          width: 144px;
+          height: 50px ;
+          background-color: #fff;
+          border-radius: 20px;
+          box-sizing: border-box;
+          display: flex;
+          flex-flow: row wrap;
+          align-items: center;
+          justify-content: center;
+          position: absolute;
+          left: 20px;
+          a{
+            display: flex;
+            flex-flow: row wrap;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            text-align: center;
+            position: relative;
+            svg{
+              position: absolute;
+              left: -25px;
+              top: 13px;
+            }
+          }
+          span{
+            display: flex;
+            flex-flow: row wrap;
+            align-items: center;
+            justify-content: center;
+            font-size: 12px;
+            font-weight: 700;
+            color: #39AE00;
+            text-align: center;
+            line-height: 50px; 
+          }
+
+        }
+      }
+    }
+  }
+  .fardaye-shegeft{
+    background-color:#F3DFE3 ;
+  }

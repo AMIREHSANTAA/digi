@@ -1,0 +1,99 @@
+.shegeft-angiz-montakhab{
+    width: 100%;
+    height: 440px;
+    background-color: #ef3c51;
+    .shegeft-angiz-montakhab-center{
+        width: inherit;
+        height: inherit;
+        position: relative;
+        .swiper-button-prev{
+        position: absolute;
+        right: 200px;
+        }
+    }
+    .swiper{
+        width: 95%;
+        height: 95%;
+        padding-top: 20px;
+        display: flex;
+        justify-content: space-between;
+        
+    
+    }
+    .active__amazing{
+        background-color: transparent;
+        display: flex;
+        flex-flow:row wrap;
+        justify-content: center;
+        align-items: center;     
+        img{
+            width: 145px;
+            height: 145px;
+            outline: unset;
+        border-radius: unset;
+        }
+    }
+    .swiper-slide{
+        border-radius: 15px;
+        display: flex;
+        flex-flow: row wrap;
+        position: relative;
+        .titr{
+            width: 50%;
+            height: 5px;
+            background-color: #ef3c51;
+            padding-bottom: 20px;
+            position: absolute;
+             bottom:400px ;
+            img{
+                outline: unset;
+                object-fit: contain;
+            }
+        }     
+        img{
+            outline: unset;
+            object-fit: cover;
+        }
+        h3{
+            font-size: 16px;
+            font-weight: 700;
+
+        }
+        .ersal-farda{
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: flex-start;
+            align-items: center;
+            position: relative;
+            svg{
+                position: absolute;
+                right: -10px;
+                width: 18px;
+                height: 18px;
+                path{
+                    fill: #d86b00;
+                }
+            }
+            p{
+                padding-right: 5px;
+                margin-left: 70px;
+                color: #62666d;
+            }
+        }
+        .price{
+            position: relative;
+            span{
+                padding-left:20px ;
+            }
+            svg{
+                position: absolute;
+                left: 20px;
+            }
+            .percentage{
+                text-align: center;
+                width:30px;
+            }
+        }
+    }
+    
+}

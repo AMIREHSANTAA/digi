@@ -1,0 +1,23 @@
+
+.my-ye-khat-grouping{
+    height: 200px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    .swiper-wrapper{
+        .avali{
+            width: 50px;
+            height: 200px;
+            background-color: #F0F0F1;
+            img{
+                border-radius: 0;
+            }
+        }
+        .swiper-slide{
+            img{
+                outline: none;
+            }
+        }
+    }
+}

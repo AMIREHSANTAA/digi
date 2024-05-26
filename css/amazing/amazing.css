@@ -1,0 +1,83 @@
+.amazing {
+  width: 100%;
+  padding: 10px;
+  .amazing__center {
+    width: 75%;
+    margin: 0 auto;
+    background-color: #ef3c51;
+    border-radius: 15px;
+    padding-left: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    height: 300px;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 20px;
+    & img {
+      width: 92px;
+      height: 77px;
+      outline: unset;
+      outline-offset: 0;
+    }
+    & a {
+      font-family: var(--fontfamaily);
+      text-decoration: none;
+      color: whitesmoke;
+      font-size: 14px;
+      & svg {
+        padding-top: 2px;
+      }
+    }
+  }
+}
+.active__amazing {
+  background-color: transparent !important;
+}
+.image__amazing {
+  width: 140px !important;
+  height: 140px !important;
+  border-radius: 0 !important;
+  
+}
+.price {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row-reverse;
+  font-family: var(--fontfamaily);
+  & span {
+    font-family: var(--nazanin);
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .percentage {
+    display: inline-block;
+    width: 40px;
+    border-radius: 10px;
+    background-color: #d32f2f;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+  }
+}
+.discount {
+  font-family: var(--nazanin);
+  font-size: 16px;
+  color: gray;
+  text-decoration: line-through;
+  text-align: left;
+  width: 100%;
+  padding-left: 25px;
+}

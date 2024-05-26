@@ -1,0 +1,98 @@
+.gooshi_v_lavazem {
+  width: 100%;
+  padding: 20px 0;
+  height: 500px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  .gooshi_v_lavazem_center {
+    width: 85%;
+    height: 420px;
+    margin: 0 auto;
+    border: 1px solid #e0e0e2;
+    border-radius: 15px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    .gooshi_v_lavazem_first {
+      width: 25%;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: flex-start;
+      align-items: center;
+      border-left: 1px solid #e0e0e2;
+      .glv_text {
+        padding: 10px 0;
+        h1 {
+          font-size: 18px;
+          font-weight: 700;
+          line-height: 2.1;
+          color: #23254e;
+          padding-right: 20px;
+          padding-bottom: 10px;
+        }
+        span {
+          font-size: 13px;
+          color: #9185a9;
+          padding-right: 20px;
+        }
+      }
+      .glv_photo {
+        width: 100%;
+        margin: 0 auto;
+        padding-right: 20px;
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        justify-content: center;
+        column-gap: 5px;
+        a {
+          all: unset;
+          display: block;
+          margin: 0 auto;
+          width: 100%;
+          img {
+            width: 145px;
+            height: 145px;
+            border-left: 1px solid #e0e0e2;
+            border-bottom: 1px solid #e0e0e2;
+          }
+          .left{
+            border-left: 0;
+          }
+          .bottom{
+            border-bottom: 0;
+          }
+        
+        }
+      }
+      .glv_moshahede {
+        margin: 0 auto;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        span {
+          font-size: 12px;
+          margin: 0 auto;
+          display: flex;
+          flex-flow: row wrap;
+          justify-content: center;
+          align-items: center;
+          color: #19bfd3;
+          svg {
+            position: absolute;
+            top: -5px;
+            right: 42px;
+            path {
+              fill: #19bfd3;
+            }
+          }
+        }
+      }
+    }
+  }
+}

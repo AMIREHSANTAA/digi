@@ -1,0 +1,116 @@
+.porfurushtarinha{
+    width: 100%;
+    height: 430px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    .porfurushtarinha_center{
+        width: 85%;
+        height: inherit;
+        margin: 0 auto;
+        border: 1px solid #e0e0e2;
+        border-radius: 20px;
+        .porfurushtarinha_center_top{
+            width: 100%;
+            height: 80px;
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-between;
+            align-items: center;
+            .porfurushtarinha_center_top_center{
+                width: 90%;
+                height: inherit;
+                margin: 0 auto;
+                position: relative;
+                svg{
+                    position: absolute;
+                    right: 435px;
+                    top: 30px;
+                    path{
+                        fill: #f9a825;
+                    }
+                }
+                h1{
+                    text-align: center;
+                    font-size: 30px;
+                    font-weight: 500;
+                    line-height: 80px;
+                }
+
+            }
+            .porfurushtarinha_center_top_left{
+                width: 10%;
+                height: inherit;
+                position: relative;
+                h3{
+                    position: absolute;
+                    top: 25px;
+                    text-align: center;
+                    color: #19bfd3;
+                }
+            }
+        }
+        .porfurushtarinha_center_bottom{
+            width: 100%;
+            height: 330px;
+            display: flex;
+            flex-flow: column wrap;
+            justify-content: space-between;
+            align-items:center ;
+            gap: 10px;
+            .swiper {
+                display: inline;
+                width: 100%;
+                height: 100%;
+              }
+              .swiper-slide {
+                display: flex;
+                flex-flow:  row wrap;
+                align-items: center;
+                column-gap: 10px;
+                .aksesh{
+                    width: 86px;    
+                    display: flex;
+                    flex-flow: row wrap;
+                    justify-content: flex-start;
+                    align-items: center;
+                    img{
+                        outline: none;
+                        width: 86px;
+                        height: 86px;
+                        border-radius: 0;
+                    }
+                  
+                }
+                .adadesh{
+                    span{
+                        font-size: 2.6rem;
+                        font-weight: 800;
+                        line-height: 2.1;
+                        color: #19bfd3;
+                    }
+                }
+                .textesh{
+                    width: 50%;
+                    
+                    padding-bottom: 15px;
+                   
+                    border-bottom: 1px solid #e0e0e2;
+                    p{
+                        display: -webkit-box;
+                        -webkit-line-clamp: 2;
+                        -webkit-box-orient: vertical;
+                        overflow: hidden;
+                        width: fit-content;
+                        height: fit-content;
+                        color: #3f4064;
+                    }
+                
+            }
+        }
+    }
+}
+}

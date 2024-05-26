@@ -1,0 +1,139 @@
+.shegeft_ruz{
+    width: 100%;
+    height: 345px;
+    margin-bottom: 25px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    .shegeft_ruz_center{
+        width: 95%;
+        height: inherit;
+        margin: 10px auto;
+        padding-bottom: 20px;
+        background-color: #E2113B;
+        border-radius: 10px;
+        .shegeft_ruz_center_top{
+            width: 100%;
+            height: 45px;
+            padding-top: 10px;
+            padding-right: 20px;
+            svg{
+                path{
+                    fill: #fff;
+                }
+            }
+            span{
+                color: #fff;
+            }
+        }
+        .shegeft_ruz_center_bottom{
+            width: 100%;
+            height: 300px;
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: center;
+            align-items: center;
+            column-gap: 10px;
+             .rasti{
+                width: 615px;
+                height: 280px;
+                background-color: #fff;
+                border-radius: 10px;
+                .titr{
+                    all: unset;
+                    padding-top: 40px;
+                    padding-right: 10px;
+                    width: 0;
+                    height: 0;
+                    img{
+                        padding-top: 20px;
+                    }
+                }
+                .aksesh{
+                    padding-top: 10px;
+                    padding-right: 17px;
+                    img{
+                        width: 200px;
+                        height: 200px;
+                        object-fit: cover;
+                    }
+                }
+                .matnesh{
+                    position: relative;
+                    h3{
+                        font-size: 12px;
+                        color: #3f4064;
+                        position: absolute;
+                        top: -170px;
+                        right: 230px;
+                    }
+                }
+                .adad-v-setare{
+                    display: flex;
+                    flex-flow: row wrap;
+                    column-gap: 10px;
+                    position: relative;
+                    h3{
+                        font-size: 12px;
+                        color: #3f4064;
+                        position: absolute;
+                        top: -120px;
+                        right: 530px;
+                    }
+                    svg{
+                        width: 16px;
+                        height: 16px;
+                        position: absolute;
+                        top: -123px;
+                        right: 560px;
+                        path{
+                            fill: #f9bc00;
+                        }
+                    }                    
+                }
+               .darsad-takhfif-asli{
+                position: relative;
+                .darsad-takhfif{
+                    width: 30px;
+                    height: 20px;
+                    padding-right: 40px;
+                    background-color: #d32f2f;
+                    border-radius: 20px;
+                    position: absolute;
+                    top: -90px;
+                    right: 240px;
+                    span{
+                        position: absolute;
+                        left: 10px;
+                        right: 10px;
+                        text-align: center;
+                        line-height: 20px;
+                        padding-left: 20px;
+                        color: #fff;
+                    }
+                }
+               }
+               .gheymatesh-asli{
+                position: relative;
+                .gheymatesh{
+                    position: absolute;
+                    top: -90px;
+                    right: 500px;
+                }
+               }
+               .gh-khati{
+                position: relative;
+                span{
+                    text-decoration: line-through;
+                    color: #c0c2c5; 
+                    position: absolute;
+                    top: -50px;
+                    right: 500px;        
+                }
+               }
+
+        }
+    }
+}
+}
